@@ -232,9 +232,9 @@ public with sharing class VariablesDataTypesOperators {
      * @return The average of the three numbers.
      */
     public static Double averageOfThreeNumbers(Integer a, Integer b, Integer c) {
-        Double average;
-        average = (a + b + c) / 3;
-        return average; // Replace null with the variable you used to store the result
+        Double averageOfThreeNumbers;
+        Decimal averageOfThreeNumbers = (a + b + c) / 3;
+        return averageOfThreeNumbers; // Replace null with the variable you used to store the result
     }
 
     /**
@@ -296,7 +296,7 @@ public with sharing class VariablesDataTypesOperators {
      * Formula: Celsius = (Fahrenheit - 32) * 5/9.
      * @param fahrenheit The temperature in Fahrenheit.
      * @return The temperature in Celsius equivalent to the given Fahrenheit temperature.
-     */
+     */git
     public static Double convertFahrenheitToCelsius(Double fahrenheit) {
         final Double SUBTRACT_FACTOR = 32.0;
         final Double MULTIPLY_FACTOR = 5.0;
